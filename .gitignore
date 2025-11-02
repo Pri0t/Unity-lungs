@@ -1,0 +1,85 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+
+# =============== #
+# Unity generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Pp]ackages/com.unity.package-manager-ui/
+
+# Never ignore ProjectSettings or Packages because they are required
+# ProjectVersion.txt is required to open project in correct Unity version
+# Assets and Packages folders contain actual project files
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.log
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ============ #
+# JetBrains IDE #
+# ============ #
+.idea/
+*.sln.iml
+
+# =============== #
+# Unity Cache     #
+# =============== #
+/MemoryCaptures/
+
+# =============== #
+# Rider           #
+# =============== #
+*.DotSettings.user
+
+# ========== #
+# Builds     #
+# ========== #
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.app
+
+# ========= #
+# Addressables #
+# ========= #
+/Assets/AddressableAssetsData/*/*.bin*
+/Assets/AddressableAssetsData/*/*.json
+
+# Crashlytics #
+crashlytics-build.properties
